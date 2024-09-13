@@ -66,3 +66,65 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #f4f4f4;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.amount-input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.input-label {
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.amount-input {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    width: 200px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+    .amount-input:focus {
+        border-color: #0070f3;
+    }
+
+.confirm-button {
+    background-color: #0070f3;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+    .confirm-button:hover {
+        background-color: #005bb5;
+    }
+
+.confirmed-amount {
+    font-size: 18px;
+    color: #28a745;
+    margin-bottom: 20px;
+}
+
+

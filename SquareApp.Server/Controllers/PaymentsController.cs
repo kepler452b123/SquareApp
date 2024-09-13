@@ -36,7 +36,7 @@ namespace SquareApp.Server.Controllers
         {
             int dbId = await _tokenService.uploadToken(token);
             var amountMoney = new Money.Builder()
-            .Amount(100L)
+            .Amount(token.amount)
             .Currency("CAD")
             .Build();
 
